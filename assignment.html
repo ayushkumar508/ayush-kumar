@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my favourite sport</title>
+</head>
+<style>
+    <script>function goToLink(select) {
+        var url=select.value;
+
+        if (url) {
+            window.location.href=url;
+        }
+    }
+
+    </script>p {
+        font-size: x-large;
+
+
+    }
+
+    body {
+
+        background-color: rgb(230, 146, 146);
+
+    }
+
+    div {
+        display: grid;
+        grid-template-columns: 1fr 700px;
+        gap: 1px;
+        padding: 10px;
+        background-color: azure;
+    }
+
+    iframe {
+        padding: 20px;
+
+
+    }
+
+    button {
+
+        color: rgb(75, 5, 132);
+    }
+
+    li {
+        color: rgb(75, 5, 15);
+
+    }
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap');
+    *{
+        font-family: "Baloo Bhai 2", sans-serif;
+    }
+</style>
+
+<body>
+
+    <h1><b>CRICKET</b></h1>
+    <a href="https://www.britannica.com/sports/cricket-sport"><button>INTRODUCTION</button></a>
+
+
+
+
+    <a href="https://www.espncricinfo.com/cricket-fixtures"><button>TOURNAMENTS</button><a>
+            <a
+                href="https://www.collegesearch.in/articles/how-to-become-a-cricketer-step-wise-guide"><button>REQUIREMENTS</button></a>
+            <a href="https://www.britannica.com/quiz/cricket-quiz"><button>QUIZ</button></a>
+            <br>
+            <br>
+
+            <img src="cricket.jpeg" alt="error loading image" width="300px" height="200px">
+            <img src="cricketpitch.jpeg" alt="error loading image" width="300 px" height="200px">
+            <img src="kit.jpeg" alt="error loading image" width="300 px" height="200px">
+            <img src="lords.jpg" alt="error loading image" width="300 px" height="200px">
+
+
+            <div>
+
+                <ul>
+                    <P> <b>TOP PERFORMERS</b></P>
+                    <li> INDIA</li>
+                    <li> AUSTRALIA</li>
+                    <li>SOUTH AFRICA</li>
+                    <li>ENGLAND</li>
+                    <li>SRILANKA</li>
+                    <li>WEST INDIES</li>
+                </ul>
+                <p><b> SELECT THE COUNTRY WHOSE STATISTICS YOU WANT.</b>
+                    <img src="topnations.jpeg" width="300px" height="150px"><br>
+                    <select onchange="goToLink(this)">
+
+                        <option value="">country</option>
+                        <option value="https://www.espncricinfo.com/team/india-6/match-schedule-fixtures-and-results">
+                            INDIA</option>
+                        <option value="">AUSTRALIA</option>
+                        <option value="">ENGLAND</option>
+                        <option value=""> SRILLANKA</option>
+                        <option value=""> WEST INDIES</option>
+                    </select>
+                </p>
+            </div>
+
+
+            <iframe width="700" height="315" src="https://www.youtube.com/embed/VwII4y5vpyU?si=FaLKv9mzOwON_UJq"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="650" height="315" src="https://www.youtube.com/embed/rpPCjyVfQOo?si=SWg2ZwKzx_C2CzpO"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p><b>AN INTERESTING MATCH AND CRICKET TUTORIAL ABOVE</b></p>
+            <P1 class="baloo"><b>PLEASE TAKE THE QUIZ BY CLICKING ON THE BUTTON AT THE HEAD OF ABOVE</b></P1>
+</body>
+
+</html>
